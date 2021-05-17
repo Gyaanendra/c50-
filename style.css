@@ -1,0 +1,43 @@
+
+h1{
+    color:red;
+    text-align: center;
+}
+
+body{
+    background-color:lightsteelblue;
+}
+
+hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+}
+
+
+.header{
+    background-color:#3b3b3f;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start ;
+    flex-direction: column;
+
+}
+.allgames{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+    text-align: center;
+}
